@@ -17,3 +17,4 @@ smbget -U $usuario smb://sr000116/Soporte_TI/Kubuntu/WPS/wps-full-fix-es_1.0-201
 dpkg -i wps-full-fix-es_1.0-2019_all.deb
 
 echo "**"WPS INSTALADO"**"
+# probando los request!
