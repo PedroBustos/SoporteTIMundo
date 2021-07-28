@@ -1,1 +1,2 @@
 - Esta carpeta tiene como objetivo almacenar los archivos Script  
+- Para editar cualquier archivo preferir editarlo dentro del repositoriro para hacer más sencilla su sincronizacion para todos
