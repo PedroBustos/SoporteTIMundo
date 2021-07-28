@@ -1,0 +1,4 @@
+- No crear o subir archivos sueltos en esta carpeta, favor crear sub-carpetas para cada categoría para mantener el orden 
+- No utilizar espacios en los nombres de los archivos, para mantener la compatibilidad entre sistemas
+- Preferir utilizar cammelCase para nombrar archivos EJ: 'nombreArchivo' ó 'NombreArchivo'
+- Las carpetas no siguen normas para nombrarlas
