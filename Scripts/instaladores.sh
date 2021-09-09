@@ -85,14 +85,18 @@ apt-get install gpaint -y
 #instalacion snapd
 apt-get install snapd -y
 
-#instalacion skype
-#snap install skype --classic 
 
 #instalacion ssh
 apt-get install ssh -y
 
+#Instalar Flameshot
+sudo apt install flameshot -y
+
 #instalacion simple scan
 apt-get install simple-scan -y
+
+#Instalar BleachBit
+sudo apt install bleachbit -y
 
 #instalacion GIT
 apt-get install git -y
@@ -131,9 +135,6 @@ wget observium.pacificored.cl/wallpapers.tar.gz
 tar zxvf wallpapers.tar.gz
 cp -rp images/ /usr/share/wallpapers/Next/contents/
 
-#Shutter
-sudo add-apt-repository -y ppa:linuxuprising/shutter
-sudo apt install shutter -y
 
 #instalacion scanner
 #wget https://ftp.hp.com/pub/softlib/software13/printers/SS/SL-C4010ND/uld_V1.00.39_01.17.tar.gz
@@ -175,10 +176,7 @@ echo "#Blockeo USB-Storage" >> /etc/modprobe.d/blacklist.conf
 echo "blacklist usb-storage" >> /etc/modprobe.d/blacklist.conf
 
 
-#Stacer 
 
-sudo add-apt-repository ppa:oguzhaninan/stacer -y
-sudo apt-get install stacer -y
 
 #Agente Wazuh
 wget http://observium.pacificored.cl/wazuh.sh
